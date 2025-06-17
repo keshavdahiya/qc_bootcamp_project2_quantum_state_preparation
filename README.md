@@ -2,8 +2,8 @@
 
 (Erdös quantum computing bootcamp mini project 2)
 
-Given a $2^n$-dimensional state vector $\psi=\sum_{x=0}^{2^n-1}\psi_x\ket{x}_n\in\mathbb{C}^{2^n}$ such that $\lVert\psi\rVert_2=1$, we write a function QSP $(\psi)$ which outputs a circuit $U$, such that 
-$$U|0\rangle_n=\sum_{x=0}^{2^n-1}\psi_x\ket{x}_n\ .$$
+Given a $2^n$-dimensional state vector $\psi=\sum_{x=0}^{2^n-1}\psi_x|x\rangle_n\in\mathbb{C}^{2^n}$ such that $\lVert \psi \rVert_2=1$, we write a function QSP $(\psi)$ which outputs a circuit $U$, such that 
+$U|0\rangle = \sum_{x=0}^{2^n-1}\psi_x\ket{x}_n\ .$
 
 The construction is done in three steps. 
 1. Using the absolute values $|\psi_x|$, find angles $\theta, \theta_{0}, \theta_{1}, \theta_{00}, \theta_{10}, \theta_{01}, \theta_{11}, \cdots $ such that (for example in the case of $n=3$) 
