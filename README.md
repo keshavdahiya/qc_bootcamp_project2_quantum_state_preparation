@@ -7,7 +7,7 @@ $$U|0\rangle = \psi .$$
 
 The construction is done in two steps. 
 
-1. Using the $R_Y$ multiplexers, prepare the state $\sum_{x=0}^{2^n-1}|\psi_x|\ |x\rangle_n$.
+1. Using the $R_Y$ multiplexers, prepare the absolute value state $\sum_{x=0}^{2^n-1}|\psi_x|\ |x\rangle_n$.
 
 2. Using the $R_Z$ multiplexers and one ancilla, prepare the state $\sum_{x=0}^{2^n-1}\psi_x\ |x\rangle_n$ from the state $\sum_{x=0}^{2^n-1}|\psi_x|\ |x\rangle_n$.
 
