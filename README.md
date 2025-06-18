@@ -3,7 +3,7 @@
 (Erdös quantum computing bootcamp mini project 2)
 
 Given a $2^n$-dimensional state vector $\psi=\sum_{x=0}^{2^n-1}\psi_x|x\rangle_n\in\mathbb{C}^{2^n}$ such that $\lVert \psi \rVert_2=1$, we write a function QSP $(\psi)$ which outputs a circuit $U$, such that 
-$$U|0\rangle = \sum_{x=0}^{2^n-1}\psi_x\ket{x}_n\ .$$
+$$U|0\rangle = \psi .$$
 
 The construction is done in two steps. 
 
